@@ -1,0 +1,15 @@
+.card-services .card-title {
+  margin: 0;
+}
+
+.card-services a {
+  display: block;
+  padding: calc(2 * 1rem); /* 2x the root element (assuming 1rem root) */
+  background-color: var(--color-light-grey);
+}
+
+.card-services a:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  text-decoration: none;
+}
